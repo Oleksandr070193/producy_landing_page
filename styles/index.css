@@ -18,7 +18,7 @@ background-color: #2a2b2f;
     z-index: 10;
 }
 .main-big-banner {
-    background-image: url(img/headerdesktop_mmh7_new_desktop_169905.jpg);
+    background-image: url(/img/headerdesktop_mmh7_new_desktop_169905.jpg);
     background-position-x: center;
     background-position-y: center;
     background-size: cover;
