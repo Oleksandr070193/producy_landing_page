@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+.container {
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 30px;
+    position: relative;
+    width: 100%;
+}
+.header {
+display: flex;
+background-color: #2a2b2f;
+}
+.logo {
+    z-index: 10;
+}
+.main-big-banner {
+    background-image: url(/img/headerdesktop_mmh7_new_desktop_169905.jpg);
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    min-height: 555px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-group {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.h1-main-banner {
+    text-align: center;
+    color: azure;
+}
+.text-on-main-banner {
+    text-align: center;
+    color: azure;
+   font-size: 24px;
+}
+.href-on-header {
+    color: #fff;
+    text-decoration: none;
+
+}
+.top-menu-wide {
+    margin-right: 15px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.carousel {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.top-menu-burger {
+cursor: pointer;
+display: block;
+height: 20px;
+padding: 12px;
+position: relative;
+width: 30px;
+z-index: 5;
+color: #fff;
+}
